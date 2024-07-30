@@ -1,0 +1,51 @@
+section {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-areas:
+    "avatar loyalty loyalty"
+    "history loyalty loyalty";
+  gap: 2rem;
+  transition: all 0.2s ease;
+  opacity: 0;
+
+  @media (width <= 1080px) {
+    grid-template-areas:
+      "avatar avatar"
+      "loyalty loyalty"
+      "history history";
+  }
+
+  @media (width <= 560px) {
+    grid-template-areas: "avatar" "loyalty" "history";
+  }
+
+  & .avatar {
+    grid-area: avatar;
+  }
+  & .history {
+    grid-area: history;
+  }
+  & .box-loyalty-card {
+    grid-area: loyalty;
+  }
+}
+
+.section-hidden {
+  opacity: 0;
+  display: none;
+}
+
+.section-show {
+  animation: fade-in-section-show 0.5s ease both;
+}
+
+@keyframes fade-in-section-show {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

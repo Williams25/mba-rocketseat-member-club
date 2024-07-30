@@ -1,0 +1,142 @@
+{
+  "clients": [
+    {
+      "id": "124-537-835-230",
+      "name": "Natália Miranda",
+      "avatar": "./src/assets/face_co2.svg",
+      "clientSince": "18/09/2023",
+      "appointmentHistory": [
+        {
+          "date": "29/04/2024",
+          "time": "18:30"
+        },
+        {
+          "date": "16/03/2024",
+          "time": "17:00"
+        },
+        {
+          "date": "01/02/2024",
+          "time": "17:30"
+        },
+        {
+          "date": "03/01/2024",
+          "time": "15:00"
+        },
+        {
+          "date": "28/11/2023",
+          "time": "14:00"
+        },
+        {
+          "date": "23/10/2023",
+          "time": "15:00"
+        }
+      ],
+      "loyaltyCard": {
+        "totalCuts": 7,
+        "cutsNeeded": 10,
+        "cutsRemaining": 3
+      }
+    },
+    {
+      "id": "207-245-699-104",
+      "name": "Capitão Nascimento",
+      "clientSince": "12/04/2023",
+      "avatar": "./src/assets/face_co.svg",
+      "appointmentHistory": [
+        {
+          "date": "01/05/2024",
+          "time": "10:00"
+        },
+        {
+          "date": "12/02/2024",
+          "time": "09:00"
+        },
+        {
+          "date": "30/12/2023",
+          "time": "11:00"
+        },
+        {
+          "date": "05/11/2023",
+          "time": "10:30"
+        }
+      ],
+      "loyaltyCard": {
+        "totalCuts": 4,
+        "cutsNeeded": 10,
+        "cutsRemaining": 6
+      }
+    },
+    {
+      "id": "523-114-876-908",
+      "name": "Sansão",
+      "clientSince": "15/07/2023",
+      "avatar": "./src/assets/face_co1.svg",
+      "appointmentHistory": [
+        {
+          "date": "22/04/2024",
+          "time": "16:00"
+        },
+        {
+          "date": "18/03/2024",
+          "time": "16:30"
+        },
+        {
+          "date": "24/01/2024",
+          "time": "17:45"
+        },
+        {
+          "date": "20/12/2023",
+          "time": "15:15"
+        }
+      ],
+      "loyaltyCard": {
+        "totalCuts": 5,
+        "cutsNeeded": 8,
+        "cutsRemaining": 3
+      }
+    },
+    {
+      "id": "125-201-735-230",
+      "name": "Taty Savio",
+      "clientSince": "12/05/2017",
+      "avatar": "https://avatars.githubusercontent.com/u/42379269?v=4",
+      "appointmentHistory": [
+        {
+          "date": "29/04/2024",
+          "time": "18:30",
+          "formatedDate": "2024-04-29 18:30:00"
+        },
+        {
+          "date": "16/03/2024",
+          "time": "17:00",
+          "formatedDate": "2024-03-16 17:00:00"
+        },
+        {
+          "date": "01/02/2024",
+          "time": "17:30",
+          "formatedDate": "2024-02-01 17:30:00"
+        },
+        {
+          "date": "03/01/2024",
+          "time": "15:00",
+          "formatedDate": "2024-01-03 15:00:00"
+        },
+        {
+          "date": "28/11/2023",
+          "time": "14:00",
+          "formatedDate": "2023-11-28 14:00:00"
+        },
+        {
+          "date": "12/05/2017",
+          "time": "15:00",
+          "formatedDate": "2017-05-12 15:00:00"
+        }
+      ],
+      "loyaltyCard": {
+        "totalCuts": 0,
+        "cutsNeeded": 10,
+        "cutsRemaining": 10
+      }
+    }
+  ]
+}
