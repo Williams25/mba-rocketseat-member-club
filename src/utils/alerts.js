@@ -23,3 +23,11 @@ export const errorCheckCard = () =>
     text: "Não foi possível marcar o Cartão Fidelidade.",
     title: "Erro ao marcar o Cartão Fidelidade! ",
   });
+
+export const invalidID = () =>
+  swalAlert({
+    confirmButtonText: "Fechar",
+    icon: "error",
+    text: "Informe um ID do válido!",
+    title: "Erro ao buscar cliente! ",
+  });

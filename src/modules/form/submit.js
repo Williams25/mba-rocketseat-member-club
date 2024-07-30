@@ -1,6 +1,6 @@
 import { swalAlert } from "../../libs/sweetalert";
 import { getUserById } from "../../services/get-user-by-id";
-import { errorSearchUserbyId } from "../../utils/alerts";
+import { errorSearchUserbyId, invalidID } from "../../utils/alerts";
 import { clientShow } from "../clients/show";
 
 const form = document.querySelector("form");
@@ -39,13 +39,8 @@ form.onsubmit = async (event) => {
   try {
     const idUser = userId?.value?.trim();
 
-    if (!idUser) {
-      return swalAlert({
-        confirmButtonText: "Fechar",
-        icon: "error",
-        text: "Informe o ID do cliente!",
-        title: "Erro ao buscar cliente! ",
-      });
+    if (!idUser || idUser.trim().length < 15) {
+      return invalidID();
     }
 
     const data = await getUserById({ id: idUser });
